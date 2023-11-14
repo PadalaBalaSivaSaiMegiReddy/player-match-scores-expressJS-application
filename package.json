@@ -1,0 +1,17 @@
+{
+  "name": "player-match-details",
+  "version": "1.0.0",
+  "description": "Given two files `app.js` and a database file `cricketMatchDetails.db` consisting of three tables `player_details`, `match_details` and `player_match_score`.",
+  "main": "app.js",
+  "author": "Megi",
+  "license": "MIT",
+  "scripts": {
+    "test": "app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.6"
+  }
+}
